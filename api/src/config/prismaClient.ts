@@ -1,5 +1,5 @@
 import 'dotenv/config'
-import { PrismaClient } from '../../generated/prisma/client'
+import { PrismaClient } from '../generated/prisma/client.js'
 import { PrismaMariaDb } from '@prisma/adapter-mariadb'
 
 // Singleton: evita abrir várias pools de conexão quando o tsx watch reinicia o server

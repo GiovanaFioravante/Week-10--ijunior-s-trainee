@@ -1,6 +1,6 @@
 import { Router } from 'express'
-import { ServiceOrdersController } from './service-orders.controller'
-import { authMiddleware } from '../../middlewares/authMiddleware'
+import { ServiceOrdersController } from './service-orders.controller.js'
+import { authMiddleware } from '../../middlewares/authMiddleware.js'
 
 const serviceOrdersRoutes = Router()
 const serviceOrdersController = new ServiceOrdersController()

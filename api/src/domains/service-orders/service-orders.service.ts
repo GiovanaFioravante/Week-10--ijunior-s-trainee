@@ -1,5 +1,5 @@
-import { prisma } from '../../config/prismaClient'
-import { ServiceOrderStatus } from '../../../generated/prisma/client'
+import { prisma } from '../../config/prismaClient.js'
+import { ServiceOrderStatus } from '../../generated/prisma/client.js'
 
 interface ServiceOrderInput {
   device: string

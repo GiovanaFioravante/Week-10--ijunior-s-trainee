@@ -1,4 +1,4 @@
-import type { Usuario } from '../../generated/prisma/client'
+import type { Usuario } from '../generated/prisma/client.js'
 
 declare global {
   namespace NodeJS {
@@ -7,6 +7,7 @@ declare global {
       DATABASE_URL: string
       JWT_SECRET: string
       JWT_EXPIRES_IN: string
+      CORS_ORIGIN: string
       NODE_ENV: 'development' | 'production' | 'test'
     }
   }

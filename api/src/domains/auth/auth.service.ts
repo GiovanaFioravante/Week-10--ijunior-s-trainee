@@ -1,7 +1,7 @@
 import bcrypt from 'bcrypt'
-import { prisma } from '../../config/prismaClient'
-import { generateToken } from '../../utils/token'
-import { AppError } from '../../utils/AppError'
+import { prisma } from '../../config/prismaClient.js'
+import { generateToken } from '../../utils/token.js'
+import { AppError } from '../../utils/AppError.js'
 
 const SALT_ROUNDS = 10
 
